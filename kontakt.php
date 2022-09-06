@@ -6,10 +6,10 @@
     <form method="post" action="send_kontakt.php">
 
         <label for="Name"><b>Name:</b></label><br>
-        <input required type="text" id="Name" size="40" name="Name"><br><br>
+        <input autocomplete="name" required type="text" id="Name" size="40" name="Name"><br><br>
 
         <label for="Email"><b>E-Mail:</b></label><br>
-        <input required type="email" id="Email" size="40" name="Email"><br><br>
+        <input autocomplete="email" required type="email" id="Email" size="40" name="Email"><br><br>
 
         <label for="Betreff"><b>Betreff:</b></label><br>
         <input required type="text" id="Betreff" size="40" name="Betreff"><br><br>
